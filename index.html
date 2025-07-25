@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세계 어디에 태어날까?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 세계 어디에 태어날까? 🌍</h1>
+        <div class="message">버튼을 눌러서 룰렛을 돌려보세요!</div>
+        
+        <div id="roulette" class="roulette">
+            <div id="rouletteWheel" class="roulette-wheel">
+                <div class="roulette-item" id="rouletteContent">🌍</div>
+            </div>
+        </div>
+        
+        <div id="result" class="result hidden">
+            <div id="flag" class="flag"></div>
+            <div id="country" class="country-display"></div>
+            <div id="gdpInfo" class="gdp-info"></div>
+            <div id="message" class="message"></div>
+        </div>
+        
+        <button id="generateBtn" class="generate-btn">룰렛 돌리기! 🎲</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
